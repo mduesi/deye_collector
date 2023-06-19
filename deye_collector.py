@@ -10,7 +10,6 @@ from datetime import datetime
 from sqlite3 import Error
 import sys, os
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
-import config
 from influxdb import InfluxDBClient
 
 """
