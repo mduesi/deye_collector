@@ -16,13 +16,13 @@ from influxdb import InfluxDBClient
 """
 :Globale Variablen
 """
-database = config.database
+#database = "deye.db"
 
 class Deye:
     def __init__(self):
         self.inverter_ip = "192.168.0.10"
         self.credentials = "admin:admin"
-        self.database = config.database
+        self.database = "deye.db"
         self.sqlite_table = "deyeinverter"
         self.influxdb_ip = "192.168.0.11"
         self.influxdb_port = 8086
